@@ -1,0 +1,12 @@
+usage: run_delivery_regression.py [-h] [--suite {http,browser,security,all}]
+                                  [--output-dir OUTPUT_DIR]
+
+Run copied client probes plus delivery security checks without altering
+original evidence.
+
+options:
+  -h, --help            show this help message and exit
+  --suite {http,browser,security,all}
+  --output-dir OUTPUT_DIR
+                        new direct child of frontend/artifacts; default is
+                        delivery-<timestamp>

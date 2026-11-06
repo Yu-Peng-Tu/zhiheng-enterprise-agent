@@ -1,0 +1,3 @@
+RUN browser: evidence /Users/pengyuhang/Documents/kimi/Workspaces/3D项目/enterprise-agent/frontend/artifacts/delivery-browser-toolcheck
+END browser: exit=1, summary=None, passed=False
+{"suite": "browser", "passed": false, "evidence": "/Users/pengyuhang/Documents/kimi/Workspaces/3D项目/enterprise-agent/frontend/artifacts/delivery-browser-toolcheck"}

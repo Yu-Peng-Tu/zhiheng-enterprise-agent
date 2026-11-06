@@ -1,0 +1,12 @@
+test_01_round_trip_preserves_source_and_contents (__main__.DeliveryToolSafetyTests.test_01_round_trip_preserves_source_and_contents) ... ok
+test_02_backup_refuses_existing_output (__main__.DeliveryToolSafetyTests.test_02_backup_refuses_existing_output) ... ok
+test_03_restore_refuses_existing_target (__main__.DeliveryToolSafetyTests.test_03_restore_refuses_existing_target) ... ok
+test_04_restore_requires_exact_confirmation (__main__.DeliveryToolSafetyTests.test_04_restore_requires_exact_confirmation) ... ok
+test_05_restore_rejects_tampered_payload (__main__.DeliveryToolSafetyTests.test_05_restore_rejects_tampered_payload) ... ok
+test_06_backup_rejects_output_inside_uploads (__main__.DeliveryToolSafetyTests.test_06_backup_rejects_output_inside_uploads) ... ok
+test_07_fingerprint_is_sha256_and_non_overwriting (__main__.DeliveryToolSafetyTests.test_07_fingerprint_is_sha256_and_non_overwriting) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 1.776s
+
+OK

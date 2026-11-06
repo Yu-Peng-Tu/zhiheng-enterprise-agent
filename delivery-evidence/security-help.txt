@@ -1,0 +1,9 @@
+usage: security_acceptance.py [-h] --output-dir OUTPUT_DIR
+
+Verify write approval controls and audit-derived metrics on an isolated SQLite
+database.
+
+options:
+  -h, --help            show this help message and exit
+  --output-dir OUTPUT_DIR
+                        new direct child of frontend/artifacts

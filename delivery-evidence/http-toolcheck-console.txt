@@ -1,0 +1,1124 @@
+RUN http: evidence /Users/pengyuhang/Documents/kimi/Workspaces/3D项目/enterprise-agent/frontend/artifacts/delivery-http-toolcheck
+END http: {"process_exit_code": 0, "summary": {"total": 27, "passed": 27, "failed": 0, "concurrency_trials": [{"trial": 0, "approval_id": "72dbb6db-bded-4eea-b041-304ac7b4c2a4", "responses": [{"status": 200, "body": {"id": "72dbb6db-bded-4eea-b041-304ac7b4c2a4", "order_id": "SQ100001", "draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 0", "priority": "normal"}, "original_draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 0", "priority": "normal"}, "status": "approved", "decision_reason": "并发请求 3", "actor": "演示管理员", "decided_at": "2026-11-05T06:49:08.004498", "ticket_id": "GDBD457A05", "created_at": "2026-11-05T06:49:07.978656"}}, {"status": 200, "body": {"id": "72dbb6db-bded-4eea-b041-304ac7b4c2a4", "order_id": "SQ100001", "draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 0", "priority": "normal"}, "original_draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 0", "priority": "normal"}, "status": "approved", "decision_reason": "并发请求 3", "actor": "演示管理员", "decided_at": "2026-11-05T06:49:08.004498", "ticket_id": "GDBD457A05", "created_at": "2026-11-05T06:49:07.978656"}}, {"status": 200, "body": {"id": "72dbb6db-bded-4eea-b041-304ac7b4c2a4", "order_id": "SQ100001", "draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 0", "priority": "normal"}, "original_draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 0", "priority": "normal"}, "status": "approved", "decision_reason": "并发请求 3", "actor": "演示管理员", "decided_at": "2026-11-05T06:49:08.004498", "ticket_id": "GDBD457A05", "created_at": "2026-11-05T06:49:07.978656"}}, {"status": 200, "body": {"id": "72dbb6db-bded-4eea-b041-304ac7b4c2a4", "order_id": "SQ100001", "draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 0", "priority": "normal"}, "original_draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 0", "priority": "normal"}, "status": "approved", "decision_reason": "并发请求 3", "actor": "演示管理员", "decided_at": "2026-11-05T06:49:08.004498", "ticket_id": "GDBD457A05", "created_at": "2026-11-05T06:49:07.978656"}}, {"status": 200, "body": {"id": "72dbb6db-bded-4eea-b041-304ac7b4c2a4", "order_id": "SQ100001", "draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 0", "priority": "normal"}, "original_draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 0", "priority": "normal"}, "status": "approved", "decision_reason": "并发请求 3", "actor": "演示管理员", "decided_at": "2026-11-05T06:49:08.004498", "ticket_id": "GDBD457A05", "created_at": "2026-11-05T06:49:07.978656"}}, {"status": 200, "body": {"id": "72dbb6db-bded-4eea-b041-304ac7b4c2a4", "order_id": "SQ100001", "draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 0", "priority": "normal"}, "original_draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 0", "priority": "normal"}, "status": "approved", "decision_reason": "并发请求 3", "actor": "演示管理员", "decided_at": "2026-11-05T06:49:08.004498", "ticket_id": "GDBD457A05", "created_at": "2026-11-05T06:49:07.978656"}}, {"status": 200, "body": {"id": "72dbb6db-bded-4eea-b041-304ac7b4c2a4", "order_id": "SQ100001", "draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 0", "priority": "normal"}, "original_draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 0", "priority": "normal"}, "status": "approved", "decision_reason": "并发请求 3", "actor": "演示管理员", "decided_at": "2026-11-05T06:49:08.004498", "ticket_id": "GDBD457A05", "created_at": "2026-11-05T06:49:07.978656"}}, {"status": 200, "body": {"id": "72dbb6db-bded-4eea-b041-304ac7b4c2a4", "order_id": "SQ100001", "draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 0", "priority": "normal"}, "original_draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 0", "priority": "normal"}, "status": "approved", "decision_reason": "并发请求 3", "actor": "演示管理员", "decided_at": "2026-11-05T06:49:08.004498", "ticket_id": "GDBD457A05", "created_at": "2026-11-05T06:49:07.978656"}}], "matching_ticket_count": 1}, {"trial": 1, "approval_id": "a908fbd1-7263-48b3-9b98-804fb84407c1", "responses": [{"status": 200, "body": {"id": "a908fbd1-7263-48b3-9b98-804fb84407c1", "order_id": "SQ100001", "draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 1", "priority": "normal"}, "original_draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 1", "priority": "normal"}, "status": "approved", "decision_reason": "并发请求 4", "actor": "演示管理员", "decided_at": "2026-11-05T06:49:08.056628", "ticket_id": "GDAD2D8537", "created_at": "2026-11-05T06:49:08.034298"}}, {"status": 200, "body": {"id": "a908fbd1-7263-48b3-9b98-804fb84407c1", "order_id": "SQ100001", "draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 1", "priority": "normal"}, "original_draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 1", "priority": "normal"}, "status": "approved", "decision_reason": "并发请求 4", "actor": "演示管理员", "decided_at": "2026-11-05T06:49:08.056628", "ticket_id": "GDAD2D8537", "created_at": "2026-11-05T06:49:08.034298"}}, {"status": 200, "body": {"id": "a908fbd1-7263-48b3-9b98-804fb84407c1", "order_id": "SQ100001", "draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 1", "priority": "normal"}, "original_draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 1", "priority": "normal"}, "status": "approved", "decision_reason": "并发请求 4", "actor": "演示管理员", "decided_at": "2026-11-05T06:49:08.056628", "ticket_id": "GDAD2D8537", "created_at": "2026-11-05T06:49:08.034298"}}, {"status": 200, "body": {"id": "a908fbd1-7263-48b3-9b98-804fb84407c1", "order_id": "SQ100001", "draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 1", "priority": "normal"}, "original_draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 1", "priority": "normal"}, "status": "approved", "decision_reason": "并发请求 4", "actor": "演示管理员", "decided_at": "2026-11-05T06:49:08.056628", "ticket_id": "GDAD2D8537", "created_at": "2026-11-05T06:49:08.034298"}}, {"status": 200, "body": {"id": "a908fbd1-7263-48b3-9b98-804fb84407c1", "order_id": "SQ100001", "draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 1", "priority": "normal"}, "original_draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 1", "priority": "normal"}, "status": "approved", "decision_reason": "并发请求 4", "actor": "演示管理员", "decided_at": "2026-11-05T06:49:08.056628", "ticket_id": "GDAD2D8537", "created_at": "2026-11-05T06:49:08.034298"}}, {"status": 200, "body": {"id": "a908fbd1-7263-48b3-9b98-804fb84407c1", "order_id": "SQ100001", "draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 1", "priority": "normal"}, "original_draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 1", "priority": "normal"}, "status": "approved", "decision_reason": "并发请求 4", "actor": "演示管理员", "decided_at": "2026-11-05T06:49:08.056628", "ticket_id": "GDAD2D8537", "created_at": "2026-11-05T06:49:08.034298"}}, {"status": 200, "body": {"id": "a908fbd1-7263-48b3-9b98-804fb84407c1", "order_id": "SQ100001", "draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 1", "priority": "normal"}, "original_draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 1", "priority": "normal"}, "status": "approved", "decision_reason": "并发请求 4", "actor": "演示管理员", "decided_at": "2026-11-05T06:49:08.056628", "ticket_id": "GDAD2D8537", "created_at": "2026-11-05T06:49:08.034298"}}, {"status": 200, "body": {"id": "a908fbd1-7263-48b3-9b98-804fb84407c1", "order_id": "SQ100001", "draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 1", "priority": "normal"}, "original_draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 1", "priority": "normal"}, "status": "approved", "decision_reason": "并发请求 4", "actor": "演示管理员", "decided_at": "2026-11-05T06:49:08.056628", "ticket_id": "GDAD2D8537", "created_at": "2026-11-05T06:49:08.034298"}}], "matching_ticket_count": 1}, {"trial": 2, "approval_id": "9ea696b3-920e-4762-bc8b-60ec47408bad", "responses": [{"status": 200, "body": {"id": "9ea696b3-920e-4762-bc8b-60ec47408bad", "order_id": "SQ100001", "draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 2", "priority": "normal"}, "original_draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 2", "priority": "normal"}, "status": "approved", "decision_reason": "并发请求 3", "actor": "演示管理员", "decided_at": "2026-11-05T06:49:08.133256", "ticket_id": "GDC6575153", "created_at": "2026-11-05T06:49:08.108845"}}, {"status": 200, "body": {"id": "9ea696b3-920e-4762-bc8b-60ec47408bad", "order_id": "SQ100001", "draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 2", "priority": "normal"}, "original_draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 2", "priority": "normal"}, "status": "approved", "decision_reason": "并发请求 3", "actor": "演示管理员", "decided_at": "2026-11-05T06:49:08.133256", "ticket_id": "GDC6575153", "created_at": "2026-11-05T06:49:08.108845"}}, {"status": 200, "body": {"id": "9ea696b3-920e-4762-bc8b-60ec47408bad", "order_id": "SQ100001", "draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 2", "priority": "normal"}, "original_draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 2", "priority": "normal"}, "status": "approved", "decision_reason": "并发请求 3", "actor": "演示管理员", "decided_at": "2026-11-05T06:49:08.133256", "ticket_id": "GDC6575153", "created_at": "2026-11-05T06:49:08.108845"}}, {"status": 200, "body": {"id": "9ea696b3-920e-4762-bc8b-60ec47408bad", "order_id": "SQ100001", "draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 2", "priority": "normal"}, "original_draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 2", "priority": "normal"}, "status": "approved", "decision_reason": "并发请求 3", "actor": "演示管理员", "decided_at": "2026-11-05T06:49:08.133256", "ticket_id": "GDC6575153", "created_at": "2026-11-05T06:49:08.108845"}}, {"status": 200, "body": {"id": "9ea696b3-920e-4762-bc8b-60ec47408bad", "order_id": "SQ100001", "draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 2", "priority": "normal"}, "original_draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 2", "priority": "normal"}, "status": "approved", "decision_reason": "并发请求 3", "actor": "演示管理员", "decided_at": "2026-11-05T06:49:08.133256", "ticket_id": "GDC6575153", "created_at": "2026-11-05T06:49:08.108845"}}, {"status": 200, "body": {"id": "9ea696b3-920e-4762-bc8b-60ec47408bad", "order_id": "SQ100001", "draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 2", "priority": "normal"}, "original_draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 2", "priority": "normal"}, "status": "approved", "decision_reason": "并发请求 3", "actor": "演示管理员", "decided_at": "2026-11-05T06:49:08.133256", "ticket_id": "GDC6575153", "created_at": "2026-11-05T06:49:08.108845"}}, {"status": 200, "body": {"id": "9ea696b3-920e-4762-bc8b-60ec47408bad", "order_id": "SQ100001", "draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 2", "priority": "normal"}, "original_draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 2", "priority": "normal"}, "status": "approved", "decision_reason": "并发请求 3", "actor": "演示管理员", "decided_at": "2026-11-05T06:49:08.133256", "ticket_id": "GDC6575153", "created_at": "2026-11-05T06:49:08.108845"}}, {"status": 200, "body": {"id": "9ea696b3-920e-4762-bc8b-60ec47408bad", "order_id": "SQ100001", "draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 2", "priority": "normal"}, "original_draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 2", "priority": "normal"}, "status": "approved", "decision_reason": "并发请求 3", "actor": "演示管理员", "decided_at": "2026-11-05T06:49:08.133256", "ticket_id": "GDC6575153", "created_at": "2026-11-05T06:49:08.108845"}}], "matching_ticket_count": 1}, {"trial": 3, "approval_id": "59dc1728-068e-4123-ab27-fb9360adcbc7", "responses": [{"status": 200, "body": {"id": "59dc1728-068e-4123-ab27-fb9360adcbc7", "order_id": "SQ100001", "draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 3", "priority": "normal"}, "original_draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 3", "priority": "normal"}, "status": "approved", "decision_reason": "并发请求 7", "actor": "演示管理员", "decided_at": "2026-11-05T06:49:08.180494", "ticket_id": "GDC7A06915", "created_at": "2026-11-05T06:49:08.157845"}}, {"status": 200, "body": {"id": "59dc1728-068e-4123-ab27-fb9360adcbc7", "order_id": "SQ100001", "draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 3", "priority": "normal"}, "original_draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 3", "priority": "normal"}, "status": "approved", "decision_reason": "并发请求 7", "actor": "演示管理员", "decided_at": "2026-11-05T06:49:08.180494", "ticket_id": "GDC7A06915", "created_at": "2026-11-05T06:49:08.157845"}}, {"status": 200, "body": {"id": "59dc1728-068e-4123-ab27-fb9360adcbc7", "order_id": "SQ100001", "draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 3", "priority": "normal"}, "original_draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 3", "priority": "normal"}, "status": "approved", "decision_reason": "并发请求 7", "actor": "演示管理员", "decided_at": "2026-11-05T06:49:08.180494", "ticket_id": "GDC7A06915", "created_at": "2026-11-05T06:49:08.157845"}}, {"status": 200, "body": {"id": "59dc1728-068e-4123-ab27-fb9360adcbc7", "order_id": "SQ100001", "draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 3", "priority": "normal"}, "original_draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 3", "priority": "normal"}, "status": "approved", "decision_reason": "并发请求 7", "actor": "演示管理员", "decided_at": "2026-11-05T06:49:08.180494", "ticket_id": "GDC7A06915", "created_at": "2026-11-05T06:49:08.157845"}}, {"status": 200, "body": {"id": "59dc1728-068e-4123-ab27-fb9360adcbc7", "order_id": "SQ100001", "draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 3", "priority": "normal"}, "original_draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 3", "priority": "normal"}, "status": "approved", "decision_reason": "并发请求 7", "actor": "演示管理员", "decided_at": "2026-11-05T06:49:08.180494", "ticket_id": "GDC7A06915", "created_at": "2026-11-05T06:49:08.157845"}}, {"status": 200, "body": {"id": "59dc1728-068e-4123-ab27-fb9360adcbc7", "order_id": "SQ100001", "draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 3", "priority": "normal"}, "original_draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 3", "priority": "normal"}, "status": "approved", "decision_reason": "并发请求 7", "actor": "演示管理员", "decided_at": "2026-11-05T06:49:08.180494", "ticket_id": "GDC7A06915", "created_at": "2026-11-05T06:49:08.157845"}}, {"status": 200, "body": {"id": "59dc1728-068e-4123-ab27-fb9360adcbc7", "order_id": "SQ100001", "draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 3", "priority": "normal"}, "original_draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 3", "priority": "normal"}, "status": "approved", "decision_reason": "并发请求 7", "actor": "演示管理员", "decided_at": "2026-11-05T06:49:08.180494", "ticket_id": "GDC7A06915", "created_at": "2026-11-05T06:49:08.157845"}}, {"status": 200, "body": {"id": "59dc1728-068e-4123-ab27-fb9360adcbc7", "order_id": "SQ100001", "draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 3", "priority": "normal"}, "original_draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 3", "priority": "normal"}, "status": "approved", "decision_reason": "并发请求 7", "actor": "演示管理员", "decided_at": "2026-11-05T06:49:08.180494", "ticket_id": "GDC7A06915", "created_at": "2026-11-05T06:49:08.157845"}}], "matching_ticket_count": 1}, {"trial": 4, "approval_id": "12622913-7109-4c2a-beb7-ca4ba1c4fab0", "responses": [{"status": 200, "body": {"id": "12622913-7109-4c2a-beb7-ca4ba1c4fab0", "order_id": "SQ100001", "draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 4", "priority": "normal"}, "original_draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 4", "priority": "normal"}, "status": "approved", "decision_reason": "并发请求 3", "actor": "演示管理员", "decided_at": "2026-11-05T06:49:08.227039", "ticket_id": "GD31D77705", "created_at": "2026-11-05T06:49:08.204652"}}, {"status": 200, "body": {"id": "12622913-7109-4c2a-beb7-ca4ba1c4fab0", "order_id": "SQ100001", "draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 4", "priority": "normal"}, "original_draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 4", "priority": "normal"}, "status": "approved", "decision_reason": "并发请求 3", "actor": "演示管理员", "decided_at": "2026-11-05T06:49:08.227039", "ticket_id": "GD31D77705", "created_at": "2026-11-05T06:49:08.204652"}}, {"status": 200, "body": {"id": "12622913-7109-4c2a-beb7-ca4ba1c4fab0", "order_id": "SQ100001", "draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 4", "priority": "normal"}, "original_draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 4", "priority": "normal"}, "status": "approved", "decision_reason": "并发请求 3", "actor": "演示管理员", "decided_at": "2026-11-05T06:49:08.227039", "ticket_id": "GD31D77705", "created_at": "2026-11-05T06:49:08.204652"}}, {"status": 200, "body": {"id": "12622913-7109-4c2a-beb7-ca4ba1c4fab0", "order_id": "SQ100001", "draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 4", "priority": "normal"}, "original_draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 4", "priority": "normal"}, "status": "approved", "decision_reason": "并发请求 3", "actor": "演示管理员", "decided_at": "2026-11-05T06:49:08.227039", "ticket_id": "GD31D77705", "created_at": "2026-11-05T06:49:08.204652"}}, {"status": 200, "body": {"id": "12622913-7109-4c2a-beb7-ca4ba1c4fab0", "order_id": "SQ100001", "draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 4", "priority": "normal"}, "original_draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 4", "priority": "normal"}, "status": "approved", "decision_reason": "并发请求 3", "actor": "演示管理员", "decided_at": "2026-11-05T06:49:08.227039", "ticket_id": "GD31D77705", "created_at": "2026-11-05T06:49:08.204652"}}, {"status": 200, "body": {"id": "12622913-7109-4c2a-beb7-ca4ba1c4fab0", "order_id": "SQ100001", "draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 4", "priority": "normal"}, "original_draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 4", "priority": "normal"}, "status": "approved", "decision_reason": "并发请求 3", "actor": "演示管理员", "decided_at": "2026-11-05T06:49:08.227039", "ticket_id": "GD31D77705", "created_at": "2026-11-05T06:49:08.204652"}}, {"status": 200, "body": {"id": "12622913-7109-4c2a-beb7-ca4ba1c4fab0", "order_id": "SQ100001", "draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 4", "priority": "normal"}, "original_draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 4", "priority": "normal"}, "status": "approved", "decision_reason": "并发请求 3", "actor": "演示管理员", "decided_at": "2026-11-05T06:49:08.227039", "ticket_id": "GD31D77705", "created_at": "2026-11-05T06:49:08.204652"}}, {"status": 200, "body": {"id": "12622913-7109-4c2a-beb7-ca4ba1c4fab0", "order_id": "SQ100001", "draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 4", "priority": "normal"}, "original_draft": {"order_id": "SQ100001", "ticket_type": "return", "reason": "并发批准验收 4", "priority": "normal"}, "status": "approved", "decision_reason": "并发请求 3", "actor": "演示管理员", "decided_at": "2026-11-05T06:49:08.227039", "ticket_id": "GD31D77705", "created_at": "2026-11-05T06:49:08.204652"}}], "matching_ticket_count": 1}], "invalid_modifications": [{"value_type": "NoneType", "status": 422, "body": {"detail": [{"type": "value_error", "loc": ["body", "modifications", "reason"], "msg": "Value error, 工单原因必须是字符串", "input": null, "ctx": {"error": {}}}]}}, {"value_type": "int", "status": 422, "body": {"detail": [{"type": "value_error", "loc": ["body", "modifications", "reason"], "msg": "Value error, 工单原因必须是字符串", "input": 123, "ctx": {"error": {}}}]}}, {"value_type": "list", "status": 422, "body": {"detail": [{"type": "value_error", "loc": ["body", "modifications", "reason"], "msg": "Value error, 工单原因必须是字符串", "input": ["bad"], "ctx": {"error": {}}}]}}]}, "passed": true, "result_file": "http-results.json", "interpretation": "pass only when process exits 0 and result summary has failed=0"}
+{
+  "finished_at": "2026-11-05T06:49:08.658648+00:00",
+  "suite": "http",
+  "passed": true,
+  "outcomes": {
+    "http": {
+      "process_exit_code": 0,
+      "summary": {
+        "total": 27,
+        "passed": 27,
+        "failed": 0,
+        "concurrency_trials": [
+          {
+            "trial": 0,
+            "approval_id": "72dbb6db-bded-4eea-b041-304ac7b4c2a4",
+            "responses": [
+              {
+                "status": 200,
+                "body": {
+                  "id": "72dbb6db-bded-4eea-b041-304ac7b4c2a4",
+                  "order_id": "SQ100001",
+                  "draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 0",
+                    "priority": "normal"
+                  },
+                  "original_draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 0",
+                    "priority": "normal"
+                  },
+                  "status": "approved",
+                  "decision_reason": "并发请求 3",
+                  "actor": "演示管理员",
+                  "decided_at": "2026-11-05T06:49:08.004498",
+                  "ticket_id": "GDBD457A05",
+                  "created_at": "2026-11-05T06:49:07.978656"
+                }
+              },
+              {
+                "status": 200,
+                "body": {
+                  "id": "72dbb6db-bded-4eea-b041-304ac7b4c2a4",
+                  "order_id": "SQ100001",
+                  "draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 0",
+                    "priority": "normal"
+                  },
+                  "original_draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 0",
+                    "priority": "normal"
+                  },
+                  "status": "approved",
+                  "decision_reason": "并发请求 3",
+                  "actor": "演示管理员",
+                  "decided_at": "2026-11-05T06:49:08.004498",
+                  "ticket_id": "GDBD457A05",
+                  "created_at": "2026-11-05T06:49:07.978656"
+                }
+              },
+              {
+                "status": 200,
+                "body": {
+                  "id": "72dbb6db-bded-4eea-b041-304ac7b4c2a4",
+                  "order_id": "SQ100001",
+                  "draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 0",
+                    "priority": "normal"
+                  },
+                  "original_draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 0",
+                    "priority": "normal"
+                  },
+                  "status": "approved",
+                  "decision_reason": "并发请求 3",
+                  "actor": "演示管理员",
+                  "decided_at": "2026-11-05T06:49:08.004498",
+                  "ticket_id": "GDBD457A05",
+                  "created_at": "2026-11-05T06:49:07.978656"
+                }
+              },
+              {
+                "status": 200,
+                "body": {
+                  "id": "72dbb6db-bded-4eea-b041-304ac7b4c2a4",
+                  "order_id": "SQ100001",
+                  "draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 0",
+                    "priority": "normal"
+                  },
+                  "original_draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 0",
+                    "priority": "normal"
+                  },
+                  "status": "approved",
+                  "decision_reason": "并发请求 3",
+                  "actor": "演示管理员",
+                  "decided_at": "2026-11-05T06:49:08.004498",
+                  "ticket_id": "GDBD457A05",
+                  "created_at": "2026-11-05T06:49:07.978656"
+                }
+              },
+              {
+                "status": 200,
+                "body": {
+                  "id": "72dbb6db-bded-4eea-b041-304ac7b4c2a4",
+                  "order_id": "SQ100001",
+                  "draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 0",
+                    "priority": "normal"
+                  },
+                  "original_draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 0",
+                    "priority": "normal"
+                  },
+                  "status": "approved",
+                  "decision_reason": "并发请求 3",
+                  "actor": "演示管理员",
+                  "decided_at": "2026-11-05T06:49:08.004498",
+                  "ticket_id": "GDBD457A05",
+                  "created_at": "2026-11-05T06:49:07.978656"
+                }
+              },
+              {
+                "status": 200,
+                "body": {
+                  "id": "72dbb6db-bded-4eea-b041-304ac7b4c2a4",
+                  "order_id": "SQ100001",
+                  "draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 0",
+                    "priority": "normal"
+                  },
+                  "original_draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 0",
+                    "priority": "normal"
+                  },
+                  "status": "approved",
+                  "decision_reason": "并发请求 3",
+                  "actor": "演示管理员",
+                  "decided_at": "2026-11-05T06:49:08.004498",
+                  "ticket_id": "GDBD457A05",
+                  "created_at": "2026-11-05T06:49:07.978656"
+                }
+              },
+              {
+                "status": 200,
+                "body": {
+                  "id": "72dbb6db-bded-4eea-b041-304ac7b4c2a4",
+                  "order_id": "SQ100001",
+                  "draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 0",
+                    "priority": "normal"
+                  },
+                  "original_draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 0",
+                    "priority": "normal"
+                  },
+                  "status": "approved",
+                  "decision_reason": "并发请求 3",
+                  "actor": "演示管理员",
+                  "decided_at": "2026-11-05T06:49:08.004498",
+                  "ticket_id": "GDBD457A05",
+                  "created_at": "2026-11-05T06:49:07.978656"
+                }
+              },
+              {
+                "status": 200,
+                "body": {
+                  "id": "72dbb6db-bded-4eea-b041-304ac7b4c2a4",
+                  "order_id": "SQ100001",
+                  "draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 0",
+                    "priority": "normal"
+                  },
+                  "original_draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 0",
+                    "priority": "normal"
+                  },
+                  "status": "approved",
+                  "decision_reason": "并发请求 3",
+                  "actor": "演示管理员",
+                  "decided_at": "2026-11-05T06:49:08.004498",
+                  "ticket_id": "GDBD457A05",
+                  "created_at": "2026-11-05T06:49:07.978656"
+                }
+              }
+            ],
+            "matching_ticket_count": 1
+          },
+          {
+            "trial": 1,
+            "approval_id": "a908fbd1-7263-48b3-9b98-804fb84407c1",
+            "responses": [
+              {
+                "status": 200,
+                "body": {
+                  "id": "a908fbd1-7263-48b3-9b98-804fb84407c1",
+                  "order_id": "SQ100001",
+                  "draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 1",
+                    "priority": "normal"
+                  },
+                  "original_draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 1",
+                    "priority": "normal"
+                  },
+                  "status": "approved",
+                  "decision_reason": "并发请求 4",
+                  "actor": "演示管理员",
+                  "decided_at": "2026-11-05T06:49:08.056628",
+                  "ticket_id": "GDAD2D8537",
+                  "created_at": "2026-11-05T06:49:08.034298"
+                }
+              },
+              {
+                "status": 200,
+                "body": {
+                  "id": "a908fbd1-7263-48b3-9b98-804fb84407c1",
+                  "order_id": "SQ100001",
+                  "draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 1",
+                    "priority": "normal"
+                  },
+                  "original_draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 1",
+                    "priority": "normal"
+                  },
+                  "status": "approved",
+                  "decision_reason": "并发请求 4",
+                  "actor": "演示管理员",
+                  "decided_at": "2026-11-05T06:49:08.056628",
+                  "ticket_id": "GDAD2D8537",
+                  "created_at": "2026-11-05T06:49:08.034298"
+                }
+              },
+              {
+                "status": 200,
+                "body": {
+                  "id": "a908fbd1-7263-48b3-9b98-804fb84407c1",
+                  "order_id": "SQ100001",
+                  "draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 1",
+                    "priority": "normal"
+                  },
+                  "original_draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 1",
+                    "priority": "normal"
+                  },
+                  "status": "approved",
+                  "decision_reason": "并发请求 4",
+                  "actor": "演示管理员",
+                  "decided_at": "2026-11-05T06:49:08.056628",
+                  "ticket_id": "GDAD2D8537",
+                  "created_at": "2026-11-05T06:49:08.034298"
+                }
+              },
+              {
+                "status": 200,
+                "body": {
+                  "id": "a908fbd1-7263-48b3-9b98-804fb84407c1",
+                  "order_id": "SQ100001",
+                  "draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 1",
+                    "priority": "normal"
+                  },
+                  "original_draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 1",
+                    "priority": "normal"
+                  },
+                  "status": "approved",
+                  "decision_reason": "并发请求 4",
+                  "actor": "演示管理员",
+                  "decided_at": "2026-11-05T06:49:08.056628",
+                  "ticket_id": "GDAD2D8537",
+                  "created_at": "2026-11-05T06:49:08.034298"
+                }
+              },
+              {
+                "status": 200,
+                "body": {
+                  "id": "a908fbd1-7263-48b3-9b98-804fb84407c1",
+                  "order_id": "SQ100001",
+                  "draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 1",
+                    "priority": "normal"
+                  },
+                  "original_draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 1",
+                    "priority": "normal"
+                  },
+                  "status": "approved",
+                  "decision_reason": "并发请求 4",
+                  "actor": "演示管理员",
+                  "decided_at": "2026-11-05T06:49:08.056628",
+                  "ticket_id": "GDAD2D8537",
+                  "created_at": "2026-11-05T06:49:08.034298"
+                }
+              },
+              {
+                "status": 200,
+                "body": {
+                  "id": "a908fbd1-7263-48b3-9b98-804fb84407c1",
+                  "order_id": "SQ100001",
+                  "draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 1",
+                    "priority": "normal"
+                  },
+                  "original_draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 1",
+                    "priority": "normal"
+                  },
+                  "status": "approved",
+                  "decision_reason": "并发请求 4",
+                  "actor": "演示管理员",
+                  "decided_at": "2026-11-05T06:49:08.056628",
+                  "ticket_id": "GDAD2D8537",
+                  "created_at": "2026-11-05T06:49:08.034298"
+                }
+              },
+              {
+                "status": 200,
+                "body": {
+                  "id": "a908fbd1-7263-48b3-9b98-804fb84407c1",
+                  "order_id": "SQ100001",
+                  "draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 1",
+                    "priority": "normal"
+                  },
+                  "original_draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 1",
+                    "priority": "normal"
+                  },
+                  "status": "approved",
+                  "decision_reason": "并发请求 4",
+                  "actor": "演示管理员",
+                  "decided_at": "2026-11-05T06:49:08.056628",
+                  "ticket_id": "GDAD2D8537",
+                  "created_at": "2026-11-05T06:49:08.034298"
+                }
+              },
+              {
+                "status": 200,
+                "body": {
+                  "id": "a908fbd1-7263-48b3-9b98-804fb84407c1",
+                  "order_id": "SQ100001",
+                  "draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 1",
+                    "priority": "normal"
+                  },
+                  "original_draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 1",
+                    "priority": "normal"
+                  },
+                  "status": "approved",
+                  "decision_reason": "并发请求 4",
+                  "actor": "演示管理员",
+                  "decided_at": "2026-11-05T06:49:08.056628",
+                  "ticket_id": "GDAD2D8537",
+                  "created_at": "2026-11-05T06:49:08.034298"
+                }
+              }
+            ],
+            "matching_ticket_count": 1
+          },
+          {
+            "trial": 2,
+            "approval_id": "9ea696b3-920e-4762-bc8b-60ec47408bad",
+            "responses": [
+              {
+                "status": 200,
+                "body": {
+                  "id": "9ea696b3-920e-4762-bc8b-60ec47408bad",
+                  "order_id": "SQ100001",
+                  "draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 2",
+                    "priority": "normal"
+                  },
+                  "original_draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 2",
+                    "priority": "normal"
+                  },
+                  "status": "approved",
+                  "decision_reason": "并发请求 3",
+                  "actor": "演示管理员",
+                  "decided_at": "2026-11-05T06:49:08.133256",
+                  "ticket_id": "GDC6575153",
+                  "created_at": "2026-11-05T06:49:08.108845"
+                }
+              },
+              {
+                "status": 200,
+                "body": {
+                  "id": "9ea696b3-920e-4762-bc8b-60ec47408bad",
+                  "order_id": "SQ100001",
+                  "draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 2",
+                    "priority": "normal"
+                  },
+                  "original_draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 2",
+                    "priority": "normal"
+                  },
+                  "status": "approved",
+                  "decision_reason": "并发请求 3",
+                  "actor": "演示管理员",
+                  "decided_at": "2026-11-05T06:49:08.133256",
+                  "ticket_id": "GDC6575153",
+                  "created_at": "2026-11-05T06:49:08.108845"
+                }
+              },
+              {
+                "status": 200,
+                "body": {
+                  "id": "9ea696b3-920e-4762-bc8b-60ec47408bad",
+                  "order_id": "SQ100001",
+                  "draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 2",
+                    "priority": "normal"
+                  },
+                  "original_draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 2",
+                    "priority": "normal"
+                  },
+                  "status": "approved",
+                  "decision_reason": "并发请求 3",
+                  "actor": "演示管理员",
+                  "decided_at": "2026-11-05T06:49:08.133256",
+                  "ticket_id": "GDC6575153",
+                  "created_at": "2026-11-05T06:49:08.108845"
+                }
+              },
+              {
+                "status": 200,
+                "body": {
+                  "id": "9ea696b3-920e-4762-bc8b-60ec47408bad",
+                  "order_id": "SQ100001",
+                  "draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 2",
+                    "priority": "normal"
+                  },
+                  "original_draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 2",
+                    "priority": "normal"
+                  },
+                  "status": "approved",
+                  "decision_reason": "并发请求 3",
+                  "actor": "演示管理员",
+                  "decided_at": "2026-11-05T06:49:08.133256",
+                  "ticket_id": "GDC6575153",
+                  "created_at": "2026-11-05T06:49:08.108845"
+                }
+              },
+              {
+                "status": 200,
+                "body": {
+                  "id": "9ea696b3-920e-4762-bc8b-60ec47408bad",
+                  "order_id": "SQ100001",
+                  "draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 2",
+                    "priority": "normal"
+                  },
+                  "original_draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 2",
+                    "priority": "normal"
+                  },
+                  "status": "approved",
+                  "decision_reason": "并发请求 3",
+                  "actor": "演示管理员",
+                  "decided_at": "2026-11-05T06:49:08.133256",
+                  "ticket_id": "GDC6575153",
+                  "created_at": "2026-11-05T06:49:08.108845"
+                }
+              },
+              {
+                "status": 200,
+                "body": {
+                  "id": "9ea696b3-920e-4762-bc8b-60ec47408bad",
+                  "order_id": "SQ100001",
+                  "draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 2",
+                    "priority": "normal"
+                  },
+                  "original_draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 2",
+                    "priority": "normal"
+                  },
+                  "status": "approved",
+                  "decision_reason": "并发请求 3",
+                  "actor": "演示管理员",
+                  "decided_at": "2026-11-05T06:49:08.133256",
+                  "ticket_id": "GDC6575153",
+                  "created_at": "2026-11-05T06:49:08.108845"
+                }
+              },
+              {
+                "status": 200,
+                "body": {
+                  "id": "9ea696b3-920e-4762-bc8b-60ec47408bad",
+                  "order_id": "SQ100001",
+                  "draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 2",
+                    "priority": "normal"
+                  },
+                  "original_draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 2",
+                    "priority": "normal"
+                  },
+                  "status": "approved",
+                  "decision_reason": "并发请求 3",
+                  "actor": "演示管理员",
+                  "decided_at": "2026-11-05T06:49:08.133256",
+                  "ticket_id": "GDC6575153",
+                  "created_at": "2026-11-05T06:49:08.108845"
+                }
+              },
+              {
+                "status": 200,
+                "body": {
+                  "id": "9ea696b3-920e-4762-bc8b-60ec47408bad",
+                  "order_id": "SQ100001",
+                  "draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 2",
+                    "priority": "normal"
+                  },
+                  "original_draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 2",
+                    "priority": "normal"
+                  },
+                  "status": "approved",
+                  "decision_reason": "并发请求 3",
+                  "actor": "演示管理员",
+                  "decided_at": "2026-11-05T06:49:08.133256",
+                  "ticket_id": "GDC6575153",
+                  "created_at": "2026-11-05T06:49:08.108845"
+                }
+              }
+            ],
+            "matching_ticket_count": 1
+          },
+          {
+            "trial": 3,
+            "approval_id": "59dc1728-068e-4123-ab27-fb9360adcbc7",
+            "responses": [
+              {
+                "status": 200,
+                "body": {
+                  "id": "59dc1728-068e-4123-ab27-fb9360adcbc7",
+                  "order_id": "SQ100001",
+                  "draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 3",
+                    "priority": "normal"
+                  },
+                  "original_draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 3",
+                    "priority": "normal"
+                  },
+                  "status": "approved",
+                  "decision_reason": "并发请求 7",
+                  "actor": "演示管理员",
+                  "decided_at": "2026-11-05T06:49:08.180494",
+                  "ticket_id": "GDC7A06915",
+                  "created_at": "2026-11-05T06:49:08.157845"
+                }
+              },
+              {
+                "status": 200,
+                "body": {
+                  "id": "59dc1728-068e-4123-ab27-fb9360adcbc7",
+                  "order_id": "SQ100001",
+                  "draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 3",
+                    "priority": "normal"
+                  },
+                  "original_draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 3",
+                    "priority": "normal"
+                  },
+                  "status": "approved",
+                  "decision_reason": "并发请求 7",
+                  "actor": "演示管理员",
+                  "decided_at": "2026-11-05T06:49:08.180494",
+                  "ticket_id": "GDC7A06915",
+                  "created_at": "2026-11-05T06:49:08.157845"
+                }
+              },
+              {
+                "status": 200,
+                "body": {
+                  "id": "59dc1728-068e-4123-ab27-fb9360adcbc7",
+                  "order_id": "SQ100001",
+                  "draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 3",
+                    "priority": "normal"
+                  },
+                  "original_draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 3",
+                    "priority": "normal"
+                  },
+                  "status": "approved",
+                  "decision_reason": "并发请求 7",
+                  "actor": "演示管理员",
+                  "decided_at": "2026-11-05T06:49:08.180494",
+                  "ticket_id": "GDC7A06915",
+                  "created_at": "2026-11-05T06:49:08.157845"
+                }
+              },
+              {
+                "status": 200,
+                "body": {
+                  "id": "59dc1728-068e-4123-ab27-fb9360adcbc7",
+                  "order_id": "SQ100001",
+                  "draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 3",
+                    "priority": "normal"
+                  },
+                  "original_draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 3",
+                    "priority": "normal"
+                  },
+                  "status": "approved",
+                  "decision_reason": "并发请求 7",
+                  "actor": "演示管理员",
+                  "decided_at": "2026-11-05T06:49:08.180494",
+                  "ticket_id": "GDC7A06915",
+                  "created_at": "2026-11-05T06:49:08.157845"
+                }
+              },
+              {
+                "status": 200,
+                "body": {
+                  "id": "59dc1728-068e-4123-ab27-fb9360adcbc7",
+                  "order_id": "SQ100001",
+                  "draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 3",
+                    "priority": "normal"
+                  },
+                  "original_draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 3",
+                    "priority": "normal"
+                  },
+                  "status": "approved",
+                  "decision_reason": "并发请求 7",
+                  "actor": "演示管理员",
+                  "decided_at": "2026-11-05T06:49:08.180494",
+                  "ticket_id": "GDC7A06915",
+                  "created_at": "2026-11-05T06:49:08.157845"
+                }
+              },
+              {
+                "status": 200,
+                "body": {
+                  "id": "59dc1728-068e-4123-ab27-fb9360adcbc7",
+                  "order_id": "SQ100001",
+                  "draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 3",
+                    "priority": "normal"
+                  },
+                  "original_draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 3",
+                    "priority": "normal"
+                  },
+                  "status": "approved",
+                  "decision_reason": "并发请求 7",
+                  "actor": "演示管理员",
+                  "decided_at": "2026-11-05T06:49:08.180494",
+                  "ticket_id": "GDC7A06915",
+                  "created_at": "2026-11-05T06:49:08.157845"
+                }
+              },
+              {
+                "status": 200,
+                "body": {
+                  "id": "59dc1728-068e-4123-ab27-fb9360adcbc7",
+                  "order_id": "SQ100001",
+                  "draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 3",
+                    "priority": "normal"
+                  },
+                  "original_draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 3",
+                    "priority": "normal"
+                  },
+                  "status": "approved",
+                  "decision_reason": "并发请求 7",
+                  "actor": "演示管理员",
+                  "decided_at": "2026-11-05T06:49:08.180494",
+                  "ticket_id": "GDC7A06915",
+                  "created_at": "2026-11-05T06:49:08.157845"
+                }
+              },
+              {
+                "status": 200,
+                "body": {
+                  "id": "59dc1728-068e-4123-ab27-fb9360adcbc7",
+                  "order_id": "SQ100001",
+                  "draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 3",
+                    "priority": "normal"
+                  },
+                  "original_draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 3",
+                    "priority": "normal"
+                  },
+                  "status": "approved",
+                  "decision_reason": "并发请求 7",
+                  "actor": "演示管理员",
+                  "decided_at": "2026-11-05T06:49:08.180494",
+                  "ticket_id": "GDC7A06915",
+                  "created_at": "2026-11-05T06:49:08.157845"
+                }
+              }
+            ],
+            "matching_ticket_count": 1
+          },
+          {
+            "trial": 4,
+            "approval_id": "12622913-7109-4c2a-beb7-ca4ba1c4fab0",
+            "responses": [
+              {
+                "status": 200,
+                "body": {
+                  "id": "12622913-7109-4c2a-beb7-ca4ba1c4fab0",
+                  "order_id": "SQ100001",
+                  "draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 4",
+                    "priority": "normal"
+                  },
+                  "original_draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 4",
+                    "priority": "normal"
+                  },
+                  "status": "approved",
+                  "decision_reason": "并发请求 3",
+                  "actor": "演示管理员",
+                  "decided_at": "2026-11-05T06:49:08.227039",
+                  "ticket_id": "GD31D77705",
+                  "created_at": "2026-11-05T06:49:08.204652"
+                }
+              },
+              {
+                "status": 200,
+                "body": {
+                  "id": "12622913-7109-4c2a-beb7-ca4ba1c4fab0",
+                  "order_id": "SQ100001",
+                  "draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 4",
+                    "priority": "normal"
+                  },
+                  "original_draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 4",
+                    "priority": "normal"
+                  },
+                  "status": "approved",
+                  "decision_reason": "并发请求 3",
+                  "actor": "演示管理员",
+                  "decided_at": "2026-11-05T06:49:08.227039",
+                  "ticket_id": "GD31D77705",
+                  "created_at": "2026-11-05T06:49:08.204652"
+                }
+              },
+              {
+                "status": 200,
+                "body": {
+                  "id": "12622913-7109-4c2a-beb7-ca4ba1c4fab0",
+                  "order_id": "SQ100001",
+                  "draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 4",
+                    "priority": "normal"
+                  },
+                  "original_draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 4",
+                    "priority": "normal"
+                  },
+                  "status": "approved",
+                  "decision_reason": "并发请求 3",
+                  "actor": "演示管理员",
+                  "decided_at": "2026-11-05T06:49:08.227039",
+                  "ticket_id": "GD31D77705",
+                  "created_at": "2026-11-05T06:49:08.204652"
+                }
+              },
+              {
+                "status": 200,
+                "body": {
+                  "id": "12622913-7109-4c2a-beb7-ca4ba1c4fab0",
+                  "order_id": "SQ100001",
+                  "draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 4",
+                    "priority": "normal"
+                  },
+                  "original_draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 4",
+                    "priority": "normal"
+                  },
+                  "status": "approved",
+                  "decision_reason": "并发请求 3",
+                  "actor": "演示管理员",
+                  "decided_at": "2026-11-05T06:49:08.227039",
+                  "ticket_id": "GD31D77705",
+                  "created_at": "2026-11-05T06:49:08.204652"
+                }
+              },
+              {
+                "status": 200,
+                "body": {
+                  "id": "12622913-7109-4c2a-beb7-ca4ba1c4fab0",
+                  "order_id": "SQ100001",
+                  "draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 4",
+                    "priority": "normal"
+                  },
+                  "original_draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 4",
+                    "priority": "normal"
+                  },
+                  "status": "approved",
+                  "decision_reason": "并发请求 3",
+                  "actor": "演示管理员",
+                  "decided_at": "2026-11-05T06:49:08.227039",
+                  "ticket_id": "GD31D77705",
+                  "created_at": "2026-11-05T06:49:08.204652"
+                }
+              },
+              {
+                "status": 200,
+                "body": {
+                  "id": "12622913-7109-4c2a-beb7-ca4ba1c4fab0",
+                  "order_id": "SQ100001",
+                  "draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 4",
+                    "priority": "normal"
+                  },
+                  "original_draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 4",
+                    "priority": "normal"
+                  },
+                  "status": "approved",
+                  "decision_reason": "并发请求 3",
+                  "actor": "演示管理员",
+                  "decided_at": "2026-11-05T06:49:08.227039",
+                  "ticket_id": "GD31D77705",
+                  "created_at": "2026-11-05T06:49:08.204652"
+                }
+              },
+              {
+                "status": 200,
+                "body": {
+                  "id": "12622913-7109-4c2a-beb7-ca4ba1c4fab0",
+                  "order_id": "SQ100001",
+                  "draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 4",
+                    "priority": "normal"
+                  },
+                  "original_draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 4",
+                    "priority": "normal"
+                  },
+                  "status": "approved",
+                  "decision_reason": "并发请求 3",
+                  "actor": "演示管理员",
+                  "decided_at": "2026-11-05T06:49:08.227039",
+                  "ticket_id": "GD31D77705",
+                  "created_at": "2026-11-05T06:49:08.204652"
+                }
+              },
+              {
+                "status": 200,
+                "body": {
+                  "id": "12622913-7109-4c2a-beb7-ca4ba1c4fab0",
+                  "order_id": "SQ100001",
+                  "draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 4",
+                    "priority": "normal"
+                  },
+                  "original_draft": {
+                    "order_id": "SQ100001",
+                    "ticket_type": "return",
+                    "reason": "并发批准验收 4",
+                    "priority": "normal"
+                  },
+                  "status": "approved",
+                  "decision_reason": "并发请求 3",
+                  "actor": "演示管理员",
+                  "decided_at": "2026-11-05T06:49:08.227039",
+                  "ticket_id": "GD31D77705",
+                  "created_at": "2026-11-05T06:49:08.204652"
+                }
+              }
+            ],
+            "matching_ticket_count": 1
+          }
+        ],
+        "invalid_modifications": [
+          {
+            "value_type": "NoneType",
+            "status": 422,
+            "body": {
+              "detail": [
+                {
+                  "type": "value_error",
+                  "loc": [
+                    "body",
+                    "modifications",
+                    "reason"
+                  ],
+                  "msg": "Value error, 工单原因必须是字符串",
+                  "input": null,
+                  "ctx": {
+                    "error": {}
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "value_type": "int",
+            "status": 422,
+            "body": {
+              "detail": [
+                {
+                  "type": "value_error",
+                  "loc": [
+                    "body",
+                    "modifications",
+                    "reason"
+                  ],
+                  "msg": "Value error, 工单原因必须是字符串",
+                  "input": 123,
+                  "ctx": {
+                    "error": {}
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "value_type": "list",
+            "status": 422,
+            "body": {
+              "detail": [
+                {
+                  "type": "value_error",
+                  "loc": [
+                    "body",
+                    "modifications",
+                    "reason"
+                  ],
+                  "msg": "Value error, 工单原因必须是字符串",
+                  "input": [
+                    "bad"
+                  ],
+                  "ctx": {
+                    "error": {}
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "passed": true,
+      "result_file": "http-results.json",
+      "interpretation": "pass only when process exits 0 and result summary has failed=0"
+    }
+  }
+}

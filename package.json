@@ -1,0 +1,11 @@
+{
+  "name": "zhiheng-enterprise-agent",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build": "npm run build --prefix frontend",
+    "test": "PYTHONPATH=backend .venv/bin/pytest backend/tests -q"
+  }
+}

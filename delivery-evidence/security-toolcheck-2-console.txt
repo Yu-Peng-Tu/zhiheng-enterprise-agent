@@ -1,0 +1,20 @@
+RUN security: evidence /Users/pengyuhang/Documents/kimi/Workspaces/3D项目/enterprise-agent/frontend/artifacts/delivery-security-toolcheck-2
+END security: {"process_exit_code": 0, "summary": {"total": 6, "passed": 6, "failed": 0}, "passed": true, "result_file": "security-results.json", "interpretation": "pass only when process exits 0 and result summary has failed=0"}
+{
+  "finished_at": "2026-11-05T06:48:29.187261+00:00",
+  "suite": "security",
+  "passed": true,
+  "outcomes": {
+    "security": {
+      "process_exit_code": 0,
+      "summary": {
+        "total": 6,
+        "passed": 6,
+        "failed": 0
+      },
+      "passed": true,
+      "result_file": "security-results.json",
+      "interpretation": "pass only when process exits 0 and result summary has failed=0"
+    }
+  }
+}

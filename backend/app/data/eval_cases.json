@@ -1,0 +1,12 @@
+{
+  "version": "retail-v1",
+  "cases": [
+    {"id":"rag-01","type":"rag","question":"七天无理由退货从什么时候开始计算？","must_contain":["签收","七日"],"expect_citation":true},
+    {"id":"rag-02","type":"rag","question":"退货验收后多久退款？","must_contain":["三个工作日"],"expect_citation":true},
+    {"id":"rag-03","type":"rag","question":"物流信息多久不更新可以创建工单？","must_contain":["七十二小时"],"expect_citation":true},
+    {"id":"rag-04","type":"rag","question":"公司明年的火星基地开放时间是几点？","must_contain":["依据不足"],"expect_citation":false},
+    {"id":"tool-01","type":"order","order_id":"SQ100001","expected_status":"delivered"},
+    {"id":"tool-02","type":"order","order_id":"SQ100002","expected_status":"shipped"},
+    {"id":"tool-03","type":"order_invalid","order_id":"SQ999999"}
+  ]
+}
