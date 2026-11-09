@@ -4,6 +4,19 @@
 
 **核心原则：有依据地回答，受控制地执行。**
 
+## English overview
+
+Zhiheng is a full-stack enterprise AI application built around a simulated e-commerce after-sales workflow. It connects document-grounded answers, order lookup, ticket drafting, human approval, idempotent execution, evaluation, and audit trails in one controlled business loop.
+
+**Design principle: answer with evidence; execute under control.**
+
+- **Traceable RAG**: document versioning, chunk-level citations, hybrid retrieval, and explicit insufficient-evidence responses.
+- **Controlled actions**: schema-validated tools, editable ticket drafts, human approval, and idempotent ticket creation.
+- **Recoverable operations**: asynchronous document jobs, status updates, safe retries, audit events, and backup/recovery documentation.
+- **Full-stack implementation**: React, TypeScript, FastAPI, SQL, Redis/RQ, and Docker Compose, with an offline acceptance mode.
+
+The project is intended for trusted local demonstrations and isolated pilots. It is not a production-ready multi-tenant SaaS system.
+
 ## 一分钟理解
 
 ```text
