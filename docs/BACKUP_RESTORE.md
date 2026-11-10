@@ -49,7 +49,7 @@ zhiheng-local-001/
 ├── database.sqlite3          # sqlite3 backup API 生成的一致性快照
 ├── uploads/                  # 上传文件原目录结构
 ├── config/                   # 非秘密配置与依赖材料快照
-├── version/source-sha256.txt # 关键源码、测试、文档和甲方探针指纹
+├── version/source-sha256.txt # 关键源码、测试与文档指纹；现场材料存在时并入
 ├── manifest.json             # 表行数、文件数、大小、哈希与一致性说明
 └── SHA256SUMS.txt            # 包括 manifest.json 在内的载荷校验
 ```

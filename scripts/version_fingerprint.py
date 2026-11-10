@@ -22,8 +22,14 @@ REQUIRED_FILES = (
     "frontend/vite.config.ts",
     "package.json",
     "PRD.md",
-    "PROJECT_CONTEXT.md",
     "README.md",
+)
+# Delivery evidence that is generated locally and excluded from the tree by
+# .gitignore: local working notes and browser/HTTP acceptance output. They are
+# fingerprinted when present, and recorded as absent otherwise, so a fingerprint
+# never claims to cover material it did not read.
+OPTIONAL_FILES = (
+    "PROJECT_CONTEXT.md",
     "frontend/artifacts/client-acceptance/initial-report.md",
     "frontend/artifacts/client-acceptance/http_acceptance.py",
     "frontend/artifacts/client-acceptance/browser_acceptance.mjs",
@@ -38,8 +44,12 @@ MATERIAL_DIRECTORIES = (
 )
 
 
-def material_files(root: Path) -> list[Path]:
+def material_files(root: Path) -> tuple[list[Path], list[str]]:
+    """Return (files to fingerprint, optional materials absent from this tree)."""
     files = {root / relative for relative in REQUIRED_FILES}
+    present_optional = [relative for relative in OPTIONAL_FILES if (root / relative).is_file()]
+    absent_optional = [relative for relative in OPTIONAL_FILES if relative not in present_optional]
+    files.update(root / relative for relative in present_optional)
     for relative in MATERIAL_DIRECTORIES:
         directory = root / relative
         if directory.is_dir():
@@ -51,20 +61,22 @@ def material_files(root: Path) -> list[Path]:
     missing = [path.relative_to(root).as_posix() for path in result if not path.is_file()]
     if missing:
         raise FileNotFoundError(f"required fingerprint materials missing: {', '.join(missing)}")
-    return result
+    return result, absent_optional
 
 
 def generate_fingerprint(root: Path, output: Path, overwrite: bool = False) -> int:
     output = output.expanduser().resolve()
     if output.exists() and not overwrite:
         raise FileExistsError(f"fingerprint output already exists: {output}; use --overwrite to replace it")
-    files = material_files(root)
+    files, absent_optional = material_files(root)
     lines = [
         "# Zhiheng delivery source fingerprint",
         f"# generated_at: {datetime.now(timezone.utc).isoformat()}",
-        "# identity: directory SHA-256 baseline; this project is not a Git repository",
+        "# identity: directory SHA-256 baseline, independent of Git",
         "# format: sha256  relative/path",
     ]
+    if absent_optional:
+        lines.append(f"# absent_optional: {', '.join(absent_optional)}")
     for path in files:
         lines.append(f"{sha256_file(path)}  {path.relative_to(root).as_posix()}")
     output.parent.mkdir(parents=True, exist_ok=True)

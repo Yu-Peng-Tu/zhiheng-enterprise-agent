@@ -97,14 +97,16 @@
 
 ## 5. 版本指纹
 
-项目不是 Git 仓库，不自行初始化或提交。生成目录基线：
+指纹的计算不依赖 Git：它以目录为基线，检出方式（发布包或 Git 仓库）不影响结果。生成目录基线：
 
 ```bash
 .venv/bin/python scripts/version_fingerprint.py \
   --output "delivery-evidence/source-sha256.txt"
 ```
 
-默认拒绝覆盖；确需为新一轮复验更新同一文件时，显式使用 `--overwrite`，并保留旧证据副本。指纹覆盖关键后端／前端源码、既有测试、交付脚本、文档、Compose、依赖锁文件、甲方原报告和两项原探针，不包含 `.env`、日常数据库、上传文件、`node_modules` 或运行产物。
+默认拒绝覆盖；确需为新一轮复验更新同一文件时，显式使用 `--overwrite`，并保留旧证据副本。指纹覆盖关键后端／前端源码、既有测试、交付脚本、文档、Compose 和依赖锁文件，不包含 `.env`、日常数据库、上传文件、`node_modules` 或运行产物。
+
+甲方原报告 `frontend/artifacts/client-acceptance/initial-report.md`、两项原探针和本地工作文档 `PROJECT_CONTEXT.md` 属于现场材料，不随本仓库发布。这些文件存在时一并纳入指纹；不存在时在指纹文件首行以 `# absent_optional:` 明确列出，因此指纹只声明它实际读过的内容，不会把未读取的材料算作已覆盖。
 
 ## 6. 待甲方环境验证
 

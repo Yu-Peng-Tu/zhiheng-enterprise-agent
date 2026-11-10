@@ -17,7 +17,9 @@ ROOT = Path(__file__).resolve().parents[1]
 BACKUP = ROOT / "scripts/delivery_backup.py"
 RESTORE = ROOT / "scripts/delivery_restore.py"
 FINGERPRINT = ROOT / "scripts/version_fingerprint.py"
-TEMP_ROOT = ROOT / "delivery-evidence/tmp"
+
+sys.path.insert(0, str(ROOT / "scripts"))
+from version_fingerprint import OPTIONAL_FILES  # noqa: E402
 
 
 def digest(path: Path) -> str:
@@ -26,8 +28,7 @@ def digest(path: Path) -> str:
 
 class DeliveryToolSafetyTests(unittest.TestCase):
     def setUp(self) -> None:
-        TEMP_ROOT.mkdir(parents=True, exist_ok=True)
-        self.temporary = tempfile.TemporaryDirectory(prefix="tool-test-", dir=TEMP_ROOT)
+        self.temporary = tempfile.TemporaryDirectory(prefix="zhiheng-tool-test-")
         self.base = Path(self.temporary.name)
         self.source = self.base / "source"
         self.uploads = self.source / "uploads"
@@ -131,11 +132,21 @@ class DeliveryToolSafetyTests(unittest.TestCase):
     def test_07_fingerprint_is_sha256_and_non_overwriting(self) -> None:
         output = self.base / "source-sha256.txt"
         self.run_tool([FINGERPRINT, "--output", output])
-        lines = [line for line in output.read_text(encoding="utf-8").splitlines() if line and not line.startswith("#")]
+        text = output.read_text(encoding="utf-8")
+        lines = [line for line in text.splitlines() if line and not line.startswith("#")]
         self.assertGreater(len(lines), 20)
         self.assertTrue(any(line.endswith("  backend/app/main.py") for line in lines))
         for line in lines:
             self.assertRegex(line.split("  ", 1)[0], r"^[0-9a-f]{64}$")
+        absent = [item for item in OPTIONAL_FILES if not (ROOT / item).is_file()]
+        header = [line for line in text.splitlines() if line.startswith("# absent_optional:")]
+        if absent:
+            self.assertEqual(len(header), 1, "missing optional materials must be recorded, not ignored")
+            for item in absent:
+                self.assertIn(item, header[0])
+            self.assertFalse(any(line.endswith(f"  {item}") for item in absent for line in lines))
+        else:
+            self.assertEqual(header, [], "no optional material is missing, so nothing should be reported absent")
         original = output.read_bytes()
         self.run_tool([FINGERPRINT, "--output", output], expected=1)
         self.assertEqual(output.read_bytes(), original)

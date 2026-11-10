@@ -16,3 +16,4 @@ backend/data/uploads/*
 .DS_Store
 PROJECT_CONTEXT.md
 delivery-evidence/process-related-existing.txt
+delivery-evidence/tmp/
